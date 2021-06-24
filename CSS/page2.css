@@ -1,11 +1,6 @@
 body {
   background-color: #21123a !important;
 }
-input {
-  font: normal normal normal 18px/16px Rajdhani;
-  font-weight: 600;
-  color: white;
-}
 .bg-violet {
   background-color: #251942;
   z-index: 1;
@@ -73,12 +68,10 @@ input {
 .box {
   background-color: #251942;
   margin: 10px 0 0 0;
-  width: 300px;
   padding: 5px;
 }
 .box2 {
   padding: 30px;
-  width: 300px;
   margin: 10px 0 0 0;
   background-color: #251942;
 }
@@ -91,14 +84,16 @@ input {
   padding: 20px;
   margin: 10px;
 }
-.input2 {
+#input1 {
   margin-top: 20px;
   border-radius: 5px;
   padding: 10px;
-  width: 450px;
   margin-left: 10px;
   border: 1px solid #5637a2;
   background-color: #251942;
+  font: normal normal normal 18px/16px Rajdhani;
+  font-weight: 600;
+  color: white;
 }
 .team-bg {
   background-image: url("../assets/TeamBadge_Sample.png");
@@ -138,4 +133,7 @@ input {
   font-weight: 600 !important;
   color: white !important;
   text-decoration: none !important;
+}
+.fa-bars {
+  color: #ba32ff;
 }

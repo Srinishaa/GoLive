@@ -73,12 +73,10 @@ input {
 .box {
   background-color: #251942;
   margin: 10px 0 0 0;
-  width: 290px;
   padding: 5px;
 }
 .box2 {
   padding: 30px;
-  width: 300px;
   margin: 10px 0 0 0;
   background-color: #251942;
 }
@@ -103,23 +101,27 @@ input {
   margin: 5px;
   background-color: #ba32ff;
 }
-.input2 {
+#input1 {
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px;
-  width: 180px;
   height: 50px;
   margin-left: 10px;
+  font: normal normal normal 18px/16px Rajdhani;
+  font-weight: 600;
+  color: white;
   border: 1px solid #5637a2;
   background-color: #251942;
 }
-.input3 {
+#input2 {
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px;
-  width: 370px;
   height: 50px;
   margin-left: 10px;
+  font: normal normal normal 18px/16px Rajdhani;
+  font-weight: 600;
+  color: white;
   border: 1px solid #5637a2;
   background-color: #251942;
 }
@@ -214,12 +216,14 @@ input {
   width: 50px;
   height: 50px;
 }
-.input4 {
+#input4 {
   margin-top: 20px;
   border-radius: 5px;
   padding: 10px;
-  width: 450px;
   margin-left: 10px;
   border: 1px solid #5637a2;
   background-color: #251942;
+}
+.fa-bars {
+  color: #ba32ff;
 }

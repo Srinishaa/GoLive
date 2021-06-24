@@ -24,7 +24,7 @@ input {
 }
 .box3 {
   padding: 30px;
-  width: 300px;
+  /* width: 300px; */
   background-color: #251942;
   height: 50vh;
 }
@@ -66,16 +66,14 @@ input {
 .sub-share,
 .basic {
   text-align: left;
-  font: normal normal normal 18px/16px Rajdhani;
+  font: Rajdhani;
   font-weight: 600;
-  letter-spacing: 0.63px;
   margin-bottom: 10px;
   color: #ffffff;
   text-transform: uppercase;
 }
 .create-items {
   font: normal normal medium 14px/20px Rajdhani;
-  letter-spacing: 0.49px;
   color: #5b5271;
   text-decoration: none;
 }
@@ -104,67 +102,32 @@ input {
   font-weight: 600;
   color: white;
 }
-.input1,
-.input2 {
+#input1,
+#input2 {
   margin-top: 20px;
   border-radius: 5px;
-  padding: 10px;
-  width: 450px;
+  color: white;
   margin-left: 10px;
   border: 1px solid #5637a2;
   background-color: #251942;
 }
-.input3 {
-  margin-top: 20px;
-  border-radius: 5px;
-  padding: 10px;
-  width: 450px;
-  margin-left: 25px;
-  border: 1px solid #5637a2;
-  background-color: #251942;
-}
-.input1-bg {
-  background-image: url("../assets/Calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 420px;
-}
-.input1-bg::placeholder {
-  font: normal normal normal 18px/16px Rajdhani;
+#input-label {
   color: white;
+  background-color: #251942;
+  border: none;
 }
-.input2::placeholder {
-  font: normal normal normal 18px/16px Rajdhani;
-  font-weight: 600;
-  color: #5637a2;
-}
+
 .community-pred {
   padding-top: 20px;
 }
-.input3::placeholder {
-  color: white;
-  font: normal normal 600 18px/52px Rajdhani;
+.input-group-text {
+  text-align: center !important;
+  white-space: nowrap !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: #ba32ff !important;
 }
-.input4::placeholder {
-  font: normal normal normal 18px/16px Rajdhani;
-  font-weight: 600;
-  color: white;
-  position: absolute;
-  top: 15px;
-  left: 50px;
-}
-/* .input4-bg {
-  background-image: url("assets/TeamBadge_Sample.png");
-  background-repeat: no-repeat;
-  background-position: 10px;
-  position: relative;
-} */
-.label1 {
-  font: normal normal normal 18px/16px Rajdhani;
-  font-weight: 600;
-  color: #ba32ff;
-  margin-top: 35px;
-  margin-left: -100px;
-}
+
 .purple-btn {
   background-color: #ba32ff !important;
   width: 128px;
@@ -178,4 +141,13 @@ input {
   font-weight: 600 !important;
   color: white !important;
   text-decoration: none !important;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-image: url('../assets/Calendar.svg');
+  color: #ffffff;
+}
+
+.fa-bars {
+  color: #ba32ff;
 }
